@@ -13,4 +13,4 @@ router
   .patch(apparelSizeController.updateApparelSize)
   .delete(apparelSizeController.deleteApparelSize);
 
-  module.exports = router;
+module.exports = router;
